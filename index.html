@@ -160,6 +160,66 @@
             .result-emoji { font-size: 4rem; }
             .category-btn { font-size: 0.9rem; padding: 10px; }
         }
+        /* Mobile-Friendly Quiz CSS */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .quiz-container {
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    h2, h3, h4 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .category-btn, .option-btn {
+        width: 100%;
+        margin: 5px 0;
+        font-size: 0.9rem;
+        padding: 10px 8px;
+    }
+
+    #options {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .progress {
+        height: 10px;
+        width: 100px !important;
+    }
+
+    #nextBtn {
+        padding: 12px;
+        font-size: 0.95rem;
+    }
+
+    #resultSection .result-emoji {
+        font-size: 4rem;
+    }
+
+    #restartBtn {
+        padding: 12px;
+        font-size: 0.95rem;
+    }
+
+    /* Adjust spacing for user form inputs */
+    #infoForm input {
+        font-size: 0.95rem;
+        padding: 8px;
+    }
+
+    #infoForm label {
+        font-size: 0.9rem;
+    }
+}
+
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
 </head>
